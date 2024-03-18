@@ -12,10 +12,17 @@ body {
 .calculator {
   max-width: 300px;
   background-color: #6b9080;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .display {
-  padding: 5px;
+  color: white;
+  padding: 15px;
   font-size: 3rem;
   text-align: right;
 }
@@ -27,8 +34,19 @@ body {
 
 button {
   flex: 0 1 25%;
+  font-size: 2rem;
+  background-color: #cce3de;
+  border-radius: 5px;
+  border: 1px solid #6b9080;
+  height: 4rem;
+  color: #6b9080;
 }
 
 .large {
   flex: 0 1 50%;
+}
+
+.outside {
+  background-color: #a4c3b2;
+  color: white;
 }
